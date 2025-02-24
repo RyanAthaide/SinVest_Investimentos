@@ -8,9 +8,9 @@
 
   <link href="./output.css" rel="stylesheet">
 </head>
-<body>
+<body class="m-0 p-0 box-border">
     <section class="w-full h-dvh">
-        <header class="w-full py-3 px-8 lg:px-10 flex justify-between items-center border-b border-b-neutral-400">
+        <header class="w-full py-3 px-8 lg:px-10 flex fixed z-10 bg-white justify-between items-center border-b border-b-neutral-400">
             <h1 id="logo" class="text-2xl text-neutral-950 font-bold">SinVest</h1>
 
             <nav class="flex gap-4 justify-center items-center">
@@ -22,64 +22,39 @@
             </nav>
         </header>
 
-        <main class="w-full h-[90vh] flex justify-center items-center p-6 flex-1/2">
-            <div id="container-content" class="flex flex-col justify-center items-center gap-5">
-                <div id="content-text">
-                    <h2>Simule seus investimentos e descubra novas oportunidades!</h2>
-                    <p>Experimente diferentes estratégias e tome decisões mais seguras.</p>
+        <section id="content-primary" class="w-full h-full flex justify-center items-center flex-1/2">
+            <main class="w-full h-full flex justify-center items-center p-6">
+                <div id="container-content" class="flex flex-col justify-center items-center gap-5">
+                    <div id="content-text">
+                        <h2>Simule seus investimentos e descubra novas oportunidades!</h2>
+                        <p>Experimente diferentes estratégias e tome decisões mais seguras.</p>
+                    </div>
+                    <form>
+                        <div id="btn-login">
+                            <button type="submit"></button>
+                            <button type="submit"></button>
+                            <button type="submit"></button>
+                        </div>
+                        <div class="separator">
+                            <hr>
+                            <span>OU</span>
+                            <hr>
+                        </div>
+                        <div id="btn-subscribe">
+                            <button type="submit">Increva-se com e-mail</button>
+                        </div>
+                        <div id="terms">
+                            <span>Ao se inscrever, você aceita os Termos e a Política de Privacidade, incluindo cookies.</span>
+                        </div>
+                    </form>
                 </div>
-
-                <form>
-                    <div id="btn-login">
-                        <button type="submit"></button>
-                        <button type="submit"></button>
-                        <button type="submit"></button>
-                    </div>
-
-                    <div class="separator">
-                        <hr>
-                        <span>OU</span>
-                        <hr>
-                    </div>
-
-                    <div id="btn-subscribe">
-                        <button type="submit">Increva-se com e-mail</button>
-                    </div>
-
-                    <div id="terms">
-                        <span>Ao se inscrever, você aceita os Termos e a Política de Privacidade, incluindo cookies.</span>
-                    </div>
-                </form>
-            </div>
-            <div id="container-content" class="flex flex-col justify-center items-center gap-5">
-                <div id="content-img">
-                    <h2>Simule seus investimentos e descubra novas oportunidades!</h2>
-                    <p>Experimente diferentes estratégias e tome decisões mais seguras.</p>
-                </div>
-
-                <form>
-                    <div id="btn-login">
-                        <button type="submit"></button>
-                        <button type="submit"></button>
-                        <button type="submit"></button>
-                    </div>
-
-                    <div class="separator">
-                        <hr>
-                        <span>OU</span>
-                        <hr>
-                    </div>
-
-                    <div id="btn-subscribe">
-                        <button type="submit">Increva-se com e-mail</button>
-                    </div>
-
-                    <div id="terms">
-                        <span>Ao se inscrever, você aceita os Termos e a Política de Privacidade, incluindo cookies.</span>
-                    </div>
-                </form>
-            </div>
-        </main>
+            </main>
+            <aside id="container-img" class="w-[80%] h-full bg-[url('./img/bgImage.svg')] bg-center bg-no-repeat bg-cover">
+            </aside>
+            
+            
+            
+        </section>
     </section>
 </body>
 </html>

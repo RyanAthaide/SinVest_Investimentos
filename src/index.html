@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,17 +10,76 @@
 </head>
 <body>
     <section class="w-full h-dvh">
-        <header class="py-3 px-10 flex justify-between items-center">
-            <h1 class="text-2xl font-bold">SinVest</h1>
+        <header class="w-full py-3 px-8 lg:px-10 flex justify-between items-center border-b border-b-neutral-400">
+            <h1 id="logo" class="text-2xl text-neutral-950 font-bold">SinVest</h1>
 
             <nav class="flex gap-4 justify-center items-center">
                 <div class="justify-center items-center gap-0.5 hidden lg:flex">
                     <p class="">Português (Brazil) <span><i class='bx bxs-chevron-down'></i></span></p>
                 </div>
 
-                <button type="submit">Log in</button>
+                <button type="submit" class="py-1 px-3 shadow-sm shadow-neutral-900 text-neutral-950 outline-1 rounded-md outline-neutral-950 font-medium hover:bg-neutral-900 hover:text-neutral-50 hover:scale-105 transition-all duration-500">Log in</button>
             </nav>
         </header>
+
+        <main class="w-full h-[90vh] flex justify-center items-center p-6 flex-1/2">
+            <div id="container-content" class="flex flex-col justify-center items-center gap-5">
+                <div id="content-text">
+                    <h2>Simule seus investimentos e descubra novas oportunidades!</h2>
+                    <p>Experimente diferentes estratégias e tome decisões mais seguras.</p>
+                </div>
+
+                <form>
+                    <div id="btn-login">
+                        <button type="submit"></button>
+                        <button type="submit"></button>
+                        <button type="submit"></button>
+                    </div>
+
+                    <div class="separator">
+                        <hr>
+                        <span>OU</span>
+                        <hr>
+                    </div>
+
+                    <div id="btn-subscribe">
+                        <button type="submit">Increva-se com e-mail</button>
+                    </div>
+
+                    <div id="terms">
+                        <span>Ao se inscrever, você aceita os Termos e a Política de Privacidade, incluindo cookies.</span>
+                    </div>
+                </form>
+            </div>
+            <div id="container-content" class="flex flex-col justify-center items-center gap-5">
+                <div id="content-img">
+                    <h2>Simule seus investimentos e descubra novas oportunidades!</h2>
+                    <p>Experimente diferentes estratégias e tome decisões mais seguras.</p>
+                </div>
+
+                <form>
+                    <div id="btn-login">
+                        <button type="submit"></button>
+                        <button type="submit"></button>
+                        <button type="submit"></button>
+                    </div>
+
+                    <div class="separator">
+                        <hr>
+                        <span>OU</span>
+                        <hr>
+                    </div>
+
+                    <div id="btn-subscribe">
+                        <button type="submit">Increva-se com e-mail</button>
+                    </div>
+
+                    <div id="terms">
+                        <span>Ao se inscrever, você aceita os Termos e a Política de Privacidade, incluindo cookies.</span>
+                    </div>
+                </form>
+            </div>
+        </main>
     </section>
 </body>
 </html>

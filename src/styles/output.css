@@ -2221,6 +2221,21 @@
       }
     }
   }
+  .hover\:outline-2 {
+    &:hover {
+      @media (hover: hover) {
+        outline-style: var(--tw-outline-style);
+        outline-width: 2px;
+      }
+    }
+  }
+  .hover\:outline-violet-700 {
+    &:hover {
+      @media (hover: hover) {
+        outline-color: var(--color-violet-700);
+      }
+    }
+  }
   .md\:mt-0 {
     @media (width >= 48rem) {
       margin-top: calc(var(--spacing) * 0);

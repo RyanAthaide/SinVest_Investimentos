@@ -387,6 +387,9 @@
   .m-0 {
     margin: calc(var(--spacing) * 0);
   }
+  .m-7 {
+    margin: calc(var(--spacing) * 7);
+  }
   .box-border {
     box-sizing: border-box;
   }
@@ -515,6 +518,18 @@
   }
   .w-\[100vw\] {
     width: 100vw;
+  }
+  .w-\[110\%\] {
+    width: 110%;
+  }
+  .w-\[110\] {
+    width: 110;
+  }
+  .w-\[110vw\] {
+    width: 110vw;
+  }
+  .w-\[120vw\] {
+    width: 120vw;
   }
   .w-full {
     width: 100%;

@@ -1161,11 +1161,38 @@
   .bg-\[\#0088cc\] {
     background-color: #0088cc;
   }
+  .bg-\[\(\'\.\/src\/assets\/fundo-login\.jpg\'\)\] {
+    background-color: ('./src/assets/fundo-login.jpg');
+  }
   .bg-\[70\] {
     background-color: 70;
   }
   .bg-\[color\:var\(--my-color\)\] {
     background-color: var(--my-color);
+  }
+  .bg-\[sr\] {
+    background-color: sr;
+  }
+  .bg-\[src\=\'\'\] {
+    background-color: src='';
+  }
+  .bg-\[src\=\'ass\'\] {
+    background-color: src='ass';
+  }
+  .bg-\[src\=\'assets\'\] {
+    background-color: src='assets';
+  }
+  .bg-\[src\=\'assets\/\'\] {
+    background-color: src='assets/';
+  }
+  .bg-\[src\=\'assets\/fundo-login\.jpg\'\] {
+    background-color: src='assets/fundo-login.jpg';
+  }
+  .bg-\[src\=\] {
+    background-color: src=;
+  }
+  .bg-\[src\] {
+    background-color: src;
   }
   .bg-\[var\(--my_variable\)\] {
     background-color: var(--my_variable);
@@ -1207,6 +1234,54 @@
     --tw-gradient-position: in oklab;
     background-image: radial-gradient(var(--tw-gradient-stops));
   }
+  .bg-\[url\(\'\'\)\] {
+    background-image: url('');
+  }
+  .bg-\[url\(\'\.\/assets\/fundo-login\.jpg\'\)\] {
+    background-image: url('./assets/fundo-login.jpg');
+  }
+  .bg-\[url\(\'\.\/pages\/assets\/fundo-login\.jpg\'\)\] {
+    background-image: url('./pages/assets/fundo-login.jpg');
+  }
+  .bg-\[url\(\'\.\/src\'\)\] {
+    background-image: url('./src');
+  }
+  .bg-\[url\(\'\.\/src\/\'\)\] {
+    background-image: url('./src/');
+  }
+  .bg-\[url\(\'\.\/src\/assets\'\)\] {
+    background-image: url('./src/assets');
+  }
+  .bg-\[url\(\'\.\/src\/assets\/\'\)\] {
+    background-image: url('./src/assets/');
+  }
+  .bg-\[url\(\'\.\/src\/assets\/fundo\'\)\] {
+    background-image: url('./src/assets/fundo');
+  }
+  .bg-\[url\(\'\.\/src\/assets\/fundo-login\'\)\] {
+    background-image: url('./src/assets/fundo-login');
+  }
+  .bg-\[url\(\'\.\/src\/assets\/fundo-login\.jp\'\)\] {
+    background-image: url('./src/assets/fundo-login.jp');
+  }
+  .bg-\[url\(\'\.\/src\/assets\/fundo-login\.jpg\'\)\] {
+    background-image: url('./src/assets/fundo-login.jpg');
+  }
+  .bg-\[url\(\'\.\/src\/pages\/assets\/fundo-login\.jpg\'\)\] {
+    background-image: url('./src/pages/assets/fundo-login.jpg');
+  }
+  .bg-\[url\(\'\/assets\/fundo-login\.jpg\'\)\] {
+    background-image: url('/assets/fundo-login.jpg');
+  }
+  .bg-\[url\(\'\/public\/assets\/fundo-login\.jpg\'\)\] {
+    background-image: url('/public/assets/fundo-login.jpg');
+  }
+  .bg-\[url\(\'assets\/bg-cadastro\.jpg\'\)\] {
+    background-image: url('assets/bg-cadastro.jpg');
+  }
+  .bg-\[url\(\'assets\/fundo-login\.jpg\'\)\] {
+    background-image: url('assets/fundo-login.jpg');
+  }
   .bg-\[url\(\'https\:\/\/images\.pexels\.com\/photos\/703016\/pexels-photo-703016\.jpeg\?auto\=compress\&cs\=tinysrgb\&w\=1260\&h\=750\&dpr\=1\'\)\] {
     background-image: url('https://images.pexels.com/photos/703016/pexels-photo-703016.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
   }
@@ -1215,6 +1290,21 @@
   }
   .bg-\[url\(\'https\:\/\/images\.pexels\.com\/photos\/4386321\/pexels-photo-4386321\.jpeg\?auto\=compress\&cs\=tinysrgb\&w\=1260\&h\=750\&dpr\=1\'\)\] {
     background-image: url('https://images.pexels.com/photos/4386321/pexels-photo-4386321.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  }
+  .bg-\[url\(\'pages\/assets\/fundo-login\.jpg\'\)\] {
+    background-image: url('pages/assets/fundo-login.jpg');
+  }
+  .bg-\[url\(\'public\/assets\/fundo-login\.jpg\'\)\] {
+    background-image: url('public/assets/fundo-login.jpg');
+  }
+  .bg-\[url\(\'s\'\)\] {
+    background-image: url('s');
+  }
+  .bg-\[url\(\'src\/pages\/assets\/fundo-login\.jpg\'\)\] {
+    background-image: url('src/pages/assets/fundo-login.jpg');
+  }
+  .bg-\[url\(\)\] {
+    background-image: url();
   }
   .bg-none {
     background-image: none;
